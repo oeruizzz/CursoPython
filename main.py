@@ -7,21 +7,19 @@
 #Tipos de variables
 #----------------------
 # 1. LISTA
-x = ["ana",27,3,"Hola"]
+x = ["ana", 27, 3, "Hola"]
 #----------------------
 # 2. STRING MULTILINEA
-x= """
+x = """
 Hola
 Mundo
 """
 #-----------------------
 
-
 #Errores
 #SintaxError
 #NameError (Este error sale es cuando el compilador no reconoce una palabra clave o no está definida una variable o funcion)
 #ZeroDivisionError (Cuando el resultado de una divisio es cero)
-
 
 #Potencia **
 #Raiz cuadrada ** 0.5
@@ -34,3 +32,9 @@ Mundo
 print("¿Cómo te llamas?")
 name = input()
 print("Hola " + name + "!")
+
+print("¿Cuales son tus apellidos?")
+lastname = input()
+
+
+print("Bienvenido " + name + " " + lastname)
